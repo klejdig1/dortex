@@ -1,0 +1,36 @@
+.dashboard {
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.crm-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.crm-form input {
+    padding: 8px;
+    flex: 1;
+}
+
+.crm-form button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.crm-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crm-table th,
+.crm-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.crm-table th {
+    background: #f4f4f4;
+}
